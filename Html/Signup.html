@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+        body{
+            text-align: center;
+            padding: 10px;
+            background-color: lightblue;
+        }
+        input {
+            padding: 8px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Create an account-->
+    <h1>Welcome <span style="color: blue">E-Shop</span></h1>
+    <h2>Create an Account</h2>
+    <form action="/submit_form" method="post">
+      <!-- First Name text input -->
+      <label for="fname">First Name: </label> <br />
+      <input type="text" id="fname" name="fname" required /><br>
+
+      <!-- Last Name type input -->
+      <label for="lname"> Last Name: </label> <br />
+      <input type="text" id="lname" name="lname" /><br />
+
+      <!-- Email type email -->
+      <label for="email">Email: </label><br />
+      <input type="email" id="email" name="email"  required/><br />
+
+      <!-- Confirm Email -->
+      <label for="conEmail">Confirm Email: </label> <br>
+      <input type="email" name="conEmail" id="conEmail"> <br>
+
+      <!-- Password -->
+      <label for="password">Password:</label><br>
+       <input type="password" name="password" id=""><br>
+
+       <!-- confirm Password -->
+       <label for="conPassword">Confirm Password</label><br>
+       <input type="password" name="conPassword" id="conPassword" required><br>
+
+       <!-- Radio Button -->
+       <label>Gender</label><br>
+     <label for="male">Male</label>
+     <input type="radio" id="male" name="gender" value="male" >
+     <label for="female">Female</label>
+     <input type="radio" id="female" name="gender" value="female">
+     <br>
+
+
+     <!-- Dropdown Select  -->
+     <label for="country">Country</label>
+     <select name="country" id="country">
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+         <option value="UK">UK</option>
+     </select>
+     <br>
+
+     <!-- checkbox -->
+     <label for="subscribe">Subscribe </label>
+     <input type="checkbox" id="subscribe" name="subscribe">
+
+     <!-- Submit Button -->
+     <input type="submit" value="Register">
+
+
+    </form>
+
+    <p> If you have an account <a href="#">Login</a></p>
+
+    <form action="/submit_form" method="post">
+        <!-- Email type email -->
+        <label for="email">Email: </label><br />
+        <input type="email" id="email" name="email"  required/><br />
+            <!-- Password -->
+      <label for="password2">Password:</label><br>
+      <input type="password" name="password2" id="password2"><br>
+  
+  
+       <!-- Submit Button -->
+       <input type="submit" value="logIn">
+       
+  
+      </form>
+
+  </body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    background-color:lightseagreen;
+    text-align: center;
+   
+}
+
+li {
+    list-style-type: none;
+    font-size:large;
+    color: aliceblue;
+}
+
+.first {
+    border: 2px solid red;
+}
+.hide-me {
+    display: none;
+}

@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+}
+
+div {
+    border: 20px solid black;
+    padding: 4em;
+}
+
+ul {
+    border: 15px solid green;
+    padding: 2em;
+}
+ul > h1 {
+    border: 3px solid red;
+    padding: .5em;
+    cursor: pointer;
+}
+ul > h1:hover {
+ transition: 1.5s;
+ background: red;
+}

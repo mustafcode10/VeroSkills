@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+  }
+  
+  section {
+    border: 5px solid red;
+    padding: 1em;
+    padding-right: 1.25em;
+    font-weight: bolder;
+   display: flex;
+   gap: 1em;
+  }
+  
+  button {
+    cursor: pointer;
+    width: 200px;
+  }
+  .blue,.green {
+    font-weight: bolder;
+  }
+  
+  .blue {
+    color: blue;
+  
+  }
+  .green {
+    color: green;
+  }
+  
+  .tab {
+    text-indent: 100%;
+    padding: 3em;
+    border: 5px solid royalblue;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+  

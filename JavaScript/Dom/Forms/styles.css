@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 15px;
+  }
+
+  input[type="checkbox"] {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+
+  
+
+  

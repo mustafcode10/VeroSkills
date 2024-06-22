@@ -1,0 +1,1 @@
+Abstraction is the process of removing the complexities away from the end-user, and giving them a GUI to work with

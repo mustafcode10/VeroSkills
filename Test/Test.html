@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+</head>
+<body>
+    <!-- First Name -->
+    <form action="./Submit">
+        <label for="fname">First Name: </label> <br>
+        <input type="text" id="fname" name="fname"><br>
+        <!-- Last Name: -->
+        <label for="lname">Last Name : </label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <!-- Gender -->
+        <label >Gender</label><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label><br>
+        <!-- Dropdown -->
+        <label >Choose a country</label><br>
+      <select name="country" id="country">
+        <option value="USA">USA</option>
+        <option value="Canada" selected>Canada</option>
+      </select><br>
+     <textarea name="messege" id="" cols="30" rows="10"> this is text multiple line</textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+ 
+</body>
+</html>

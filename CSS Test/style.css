@@ -1,0 +1,53 @@
+body {
+    background-color: lightblue;
+}
+/* .img-box {
+    border: 2px solid gray;
+} */
+#img-id {
+    border: 1px solid gray;
+    margin: 10px 30px;
+    padding: 10px;
+
+}
+
+.form_container {
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+}
+.form-row {
+    margin: 10px;
+    background-color: orange;
+}
+.form-control {
+    padding: 2%;
+    margin: 1%;
+
+}
+
+label {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+    width: 20%;
+    padding: 2px;
+}
+.btn-container {
+    text-align: center;
+}
+
+.container {
+    display: inline;
+    float: left;
+}
+
+.img-box {
+    display: flex;
+    justify-content: right;
+}

@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+  
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+ 
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+        
+            <span>
+              Rent4u
+            </span>
+          </a>
+
+          <div class="navbar-collapse" id="">
+            <div class="user_option">
+              <a href="">
+                Login
+              </a>
+            </div>
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="car.html">Cars</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="#">Login</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div class="slider_container">
+        <div class="img-box">
+          <img src="./../CSS/images/bg.jpg" id="img-id" alt="">
+        </div>
+        <div class="detail_container">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="detail-box">
+                  <h1>
+                    Rent Car <br>
+                    Experts <br>
+                    Service
+                  </h1>
+                  <a href="">
+                    Contact Us
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="detail-box">
+                  <h1>
+                    Rent Car <br>
+                    Experts <br>
+                    Service
+                  </h1>
+                  <a href="">
+                    Contact Us
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="detail-box">
+                  <h1>
+                    Rent Car <br>
+                    Experts <br>
+                    Service
+                  </h1>
+                  <a href="">
+                    Contact Us
+                  </a>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+  <!-- book section -->
+  <section class="book_section">
+    <div class="form_container">
+      <form action="">
+        <div class="form-row">
+          <div class="col-lg-8">
+            <div class="form-row">
+              <div class="col-md-6">
+                <label for="parkingName">Pick Up Locaion</label>
+                <input type="text" class="form-control" placeholder="acb ">
+              </div>
+              <div class="col-md-6">
+                <label for="parkingNumber">Drop Location</label>
+                <input type="text" class="form-control" placeholder="acb ">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6">
+                <label for="parkingName">Pick Up Date</label>
+                <input type="text" class="form-control" placeholder="07/09/2020">
+              </div>
+              <div class="col-md-6">
+                <label for="parkingNumber">Return Date</label>
+                <input type="text" class="form-control" placeholder="07/09/2020">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="btn-container">
+              <button type="submit" class="btn">
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </form>
+    </div>
+    <div class="img-box">
+      <img src="images/book-car.png" alt="">
+    </div>
+  </section>
+
+  <!-- end book section -->
+
+  <!-- car section -->
+
+  <section class="car_section layout_padding2-top layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Better Way For Find Your Favourite Cars
+        </h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the readable
+        </p>
+      </div>
+      <div class="car_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="data:image/jpeg;base64,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" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Choose Your Car
+            </h5>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/c-2.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Get Your Car
+            </h5>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/c-3.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Contact Your Dealer
+            </h5>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end car section -->
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding-bottom">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7 px-0">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="detail-box">
+            <h2>
+              About Our Cars
+            </h2>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+
+  <!-- best section -->
+
+  <section class="best_section">
+    <div class="container">
+      <div class="book_now">
+        <div class="detail-box">
+          <h2>
+            Our Best Cars
+          </h2>
+          <p>
+            It is a long established fact that a reader will be distracted by the
+          </p>
+        </div>
+        <div class="btn-box">
+          <a href="">
+            Book Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end best section -->
+
+  <!-- rent section -->
+
+  <section class="rent_section layout_padding">
+    <div class="container">
+      <div class="rent_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/r-1.png" alt="">
+          </div>
+          <div class="price">
+            <a href="">
+              Rent $200
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/r-2.png" alt="">
+          </div>
+          <div class="price">
+            <a href="">
+              Rent $200
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/r-3.png" alt="">
+          </div>
+          <div class="price">
+            <a href="">
+              Rent $200
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/r-4.png" alt="">
+          </div>
+          <div class="price">
+            <a href="">
+              Rent $200
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/r-5.png" alt="">
+          </div>
+          <div class="price">
+            <a href="">
+              Rent $200
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/r-6.png" alt="">
+          </div>
+          <div class="price">
+            <a href="">
+              Rent $200
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          See More
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- end rent section -->
+
+  <!-- blog section -->
+
+  <section class="blog_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Our Latest Blog
+        </h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+        </p>
+      </div>
+    </div>
+    <div class="blog_container">
+      <div class="layout_padding2-top">
+        <div class="carousel-wrap ">
+          <div class="owl-carousel">
+            <div class="item">
+              <div class="box">
+                <div class="date-box">
+                  <h6>
+                    04 Nov 2019
+                  </h6>
+                </div>
+                <div class="img-box">
+                  <img src="images/b-1.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Vintage
+                  </h5>
+                  <p>
+                    It is a long established fact that a reader will be distracted by the readable The point of using Lorem </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="date-box">
+                  <h6>
+                    04 Nov 2019
+                  </h6>
+                </div>
+                <div class="img-box">
+                  <img src="images/b-2.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Steering wheels
+                  </h5>
+                  <p>
+                    It is a long established fact that a reader will be distracted by the readable The point of using Lorem </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="date-box">
+                  <h6>
+                    04 Nov 2019
+                  </h6>
+                </div>
+                <div class="img-box">
+                  <img src="images/b-3.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Buick Car
+                  </h5>
+                  <p>
+                    It is a long established fact that a reader will be distracted by the readable The point of using Lorem </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="date-box">
+                  <h6>
+                    04 Nov 2019
+                  </h6>
+                </div>
+                <div class="img-box">
+                  <img src="images/b-2.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Steering wheels
+                  </h5>
+                  <p>
+                    It is a long established fact that a reader will be distracted by the readable The point of using Lorem </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end blog section -->
+
+  <!-- us section -->
+
+  <section class="us_section">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Why choose Us
+        </h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+        </p>
+      </div>
+    </div>
+    <div class="us_container layout_padding2">
+      <div class="content_box">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/u-1.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Low Rent
+            </h5>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/u-2.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Fast Car
+            </h5>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/u-3.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Safe Car
+            </h5>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/u-4.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Quick Support
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          Read More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end us section -->
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          What Is say Customer
+        </h2>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+        </p>
+      </div>
+      <div class="layout_padding2-top">
+        <div class="carousel-wrap ">
+          <div class="owl-carousel">
+            <div class="item">
+              <div class="box">
+                <div class="detail-box">
+                  <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                  </p>
+                </div>
+                <div class="client_id">
+                  <div class="img-box">
+                    <img src="images/client-1.png" alt="" class="img-1">
+                    <img src="images/client-1-white.png" alt="" class="img-2">
+                  </div>
+                  <div class="name">
+                    <h6>
+                      Established
+                    </h6>
+                    <p>
+                      by the readable
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="detail-box">
+                  <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                  </p>
+                </div>
+                <div class="client_id">
+                  <div class="img-box">
+                    <img src="images/client-2.png" alt="" class="img-1">
+                    <img src="images/client-2-white.png" alt="" class="img-2">
+                  </div>
+                  <div class="name">
+                    <h6>
+                      Blished
+                    </h6>
+                    <p>
+                      by the readable
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="detail-box">
+                  <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                  </p>
+                </div>
+                <div class="client_id">
+                  <div class="img-box">
+                    <img src="images/client-1.png" alt="" class="img-1">
+                    <img src="images/client-1-white.png" alt="" class="img-2">
+                  </div>
+                  <div class="name">
+                    <h6>
+                      Establi
+                    </h6>
+                    <p>
+                      by the readable
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="detail-box">
+                  <p>
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                  </p>
+                </div>
+                <div class="client_id">
+                  <div class="img-box">
+                    <img src="images/client-1.png" alt="" class="img-1">
+                    <img src="images/client-1-white.png" alt="" class="img-2">
+                  </div>
+                  <div class="name">
+                    <h6>
+                      Establi
+                    </h6>
+                    <p>
+                      by the readable
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Request A call back
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="form_container">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" id="inputName4" placeholder="Name ">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" id="inputSubject4" placeholder="Phone">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email id">
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="inputMessage" placeholder="Message">
+              </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="contact_items">
+
+        <a href="">
+          <div class="img-box">
+            <img src="images/location.png" alt="">
+          </div>
+          <h6>
+            Loram Ipusum ari
+            lo elisant na
+          </h6>
+        </a>
+        <a href="">
+          <div class="img-box">
+            <img src="images/call.png" alt="">
+          </div>
+          <h6>
+            (+12 1234456789)
+          </h6>
+        </a>
+        <a href="">
+          <div class="img-box">
+            <img src="images/mail.png" alt="">
+          </div>
+          <h6>
+            demo@gmail.com
+          </h6>
+        </a>
+
+      </div>
+      <div class="social_container">
+        <div class="social-box">
+          <div>
+            <a href="">
+              <img src="images/fb.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="images/twitter.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="images/linkedin.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="images/insta.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+  <!-- map section -->
+
+  <section class="map_section">
+    <!-- map section -->
+    <div class="map_container">
+      <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="300" frameborder="0" style="border:0; width: 100%; height:100%" allowfullscreen></iframe>
+      </div>
+    </div>
+    <!-- end map section -->
+  </section>
+
+
+  <!-- end map section -->
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      Copyright &copy; 2020 All Rights Reserved. Design by
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="js/custom.js"></script>

@@ -1,0 +1,18 @@
+body {
+    background-color:lightseagreen;
+    text-align: center;
+   margin: 30px;
+}
+
+.html {
+    border: 2px solid red;
+    margin: 100px;
+    padding: 5px;
+}
+.js {
+    border: 2px solid green;
+    margin: 100px;
+    padding: 5px;
+}
+
+

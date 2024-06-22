@@ -1,0 +1,40 @@
+body {
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+
+   
+}
+
+
+h1 {
+    display: inline;
+    font-weight: bolder;
+    border: 5px solid red;
+    border-radius: 10px;
+    padding: .5em;
+}
+
+h2 {
+    margin: 1em;
+    text-indent: 0em;
+    color: white;
+}
+
+li {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.first {
+    border: 5px solid red;
+}
+
+.green {
+    color: green;
+    font-size: 15px;
+    font-weight: bolder;
+}
