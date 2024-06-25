@@ -33,7 +33,9 @@ console.log(square.calculateArea()); // Outputs: 25
 
 
 
-// You are tasked with creating a class hierarchy for a library system. This system needs to handle different types of library items and provide detailed information about each item. Follow these steps to complete the task:
+// You are tasked with creating a class hierarchy for a library system.
+//  This system needs to handle different types of library items and provide detailed information about each item.
+//   Follow these steps to complete the task:
 
 // Create a base class Item:
 
