@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .character {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Star Wars Characters and Their First Film</h1>
+    <div id="characters"></div>
+
+    <script>
+        // Function to fetch and display characters and their first film
+        async function fetchCharacters() {
+            try {
+                // Fetch the characters
+                let response = await fetch('https://swapi.dev/api/people');
+                let data = await response.json();
+                let characters = data.results;
+
+                // Get the container to display the characters
+                let charactersContainer = document.getElementById('characters');
+
+                // Loop through each character
+                for (let character of characters) {
+                    // Create a div to hold the character info
+                    let characterDiv = document.createElement('div');
+                    characterDiv.classList.add('character');
+
+                    // Fetch the first film of the character
+                    let firstFilmUrl = character.films[0];
+                    let filmResponse = await fetch(firstFilmUrl);
+                    let filmData = await filmResponse.json();
+                    let firstFilmTitle = filmData.title;
+
+                    // Display the character name and first film title
+                    characterDiv.innerHTML = `<strong>${character.name}</strong>: ${firstFilmTitle}`;
+                    charactersContainer.appendChild(characterDiv);
+                }
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+
+        // Call the function to fetch and display the characters
+        fetchCharacters();
+    </script>
+</body>
+</html>
