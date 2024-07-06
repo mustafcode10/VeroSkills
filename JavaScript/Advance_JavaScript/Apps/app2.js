@@ -10,6 +10,7 @@
 //     callback()
 // }
 // setInterval(greeting, 5000)
+// console.log('Test2')
 
 // Promise
 
@@ -38,3 +39,39 @@ const pro3 = new Promise((resolve, reject)=> {
 pro3.then(output => console.log(output)), (err)=>{
     console.error(err)
 }
+
+let counter = 0
+const pro4 = new Promise((resolve, reject)=> {
+   resolve('ready')
+//    reject('error')
+
+}).then(value => {
+    counter++
+    console.log( value);
+    return  `next step ${counter}`
+}).then(value => {
+    counter++
+    console.log( value)
+    return `next step ${counter}`
+}).then(value => {
+    counter++
+    console.log( value)
+    return `next step ${counter}`
+}).then(value => {
+    counter++
+    console.log( value)
+    return `next step ${counter}`
+}).then(value => {
+    counter++
+    console.log( value)
+    return `next step ${counter}`
+}).then(value => {
+    counter++
+    console.log( value)
+    return `next step ${counter}`
+}).then(val => {
+    console.log( val)
+}).catch(err => {
+    console.log(err)
+})
+
