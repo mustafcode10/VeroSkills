@@ -1,0 +1,26 @@
+[
+    {
+        "first": "Mustaf",
+        "last": "Abtidon",
+        "id": 100,
+        "status": "Active"
+    },
+    {
+        "first": "John",
+        "last": "Doe",
+        "id": 40,
+        "status": "Inactive"
+    },
+    {
+        "first": "Joe",
+        "last": "Smith",
+        "id": 60,
+        "status": "Active"
+    },
+    {
+        "first": "Willian",
+        "last": "Smith",
+        "id": 65,
+        "status": "Inactive"
+    }
+]
