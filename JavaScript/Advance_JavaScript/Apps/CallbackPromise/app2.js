@@ -10,18 +10,18 @@
 
 
 // Callback 
-// console.log('Test1')
+console.log('Test1')
 
-// function greeting(){
-//     console.log('Hello World')
-// }
-// test1(greeting)
+function greeting(){
+    console.log('Hello World')
+}
+test1(greeting)
 
-// function test1(callback){
-//     callback()
-// }
-// setInterval(greeting, 5000)
-// console.log('Test2')
+function test1(callback){
+    callback()
+}
+setInterval(greeting, 5000)
+console.log('Test2')
 
 
 // Promises
