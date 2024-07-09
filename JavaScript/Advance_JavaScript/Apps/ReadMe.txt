@@ -16,3 +16,19 @@ fetch is used to request a resource which is external to the current file, it re
 Simple example of fetch and text and html file
 How to get file contents and load it to your web page AJAX
 Chaining of promises and how they work
+
+
+“
+Based on your call with the tutor, here are the studying recommendations:
+
+1. Understand developer tools and how to access them.
+2. Familiarize yourself with callback functions and their use in asynchronous programming.
+3. Learn about promises and their three stages: fulfilled, rejected, and pending. Understand how to use promises in code.
+4. Practice creating sequential execution of tasks using set timeout and promises.
+5. Explore the concept of wrapper classes and how they can be used to sequentially call functions.
+6. Understand the use of anonymous functions and their role in callback functions.
+7. Study the concept of recursion and how it can be used in sequential function execution.
+8. Learn about the differences between using promises and callback functions for sequential execution.
+9. Explore the concepts of web APIs and AJAX requests.
+
+Make sure to review the code examples provided by the tutor and practice implementing sequential execution of tasks using different approaches.
