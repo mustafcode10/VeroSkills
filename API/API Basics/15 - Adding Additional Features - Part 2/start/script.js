@@ -33,6 +33,7 @@ function handleApodData(data) {
 }
 
 function handleRoverData(data) {
+  roverList.innerHTML = "";
   if (!data.photos.length) {
     roverList.innerHTML =
       "<li>No photos were taken on this date. Please select another date.</li>";
@@ -48,7 +49,11 @@ function handleRoverData(data) {
 fetchData(apodURL, handleApodData);
 
 submitButton.addEventListener("click", function () {
-  const date = dateInput.value;
+  roverList.innerHTML = "Loading...";
+  const date = dateInput.value
+    ? dateInput.value
+    : new Date().toISOString().slice(0, 10);
+
   const roverURL = `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=${date}&api_key=${apiKey}`;
 
   fetchData(roverURL, handleRoverData);
