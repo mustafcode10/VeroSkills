@@ -41,3 +41,57 @@ Parses a JSON string and returns a string
 Parses a JavaScript object and returns a JSON string
 
 Answer => Converts a JSON string into a JavaScript object
+
+
+PART TWO
+
+QUESTION 1 / 5
+1 Which HTTP method should be used to create new resources in a RESTful API?
+GET
+POST
+DELETE
+PUT
+
+Answer POST
+
+QUESTION 2 / 5
+2 What does the HTTP PUT method do?
+Deletes a resource
+Gets specific aspects of a resource
+Creates a new resource
+Updates all aspects of a resource
+
+Answer => Updates all aspects of a resource
+
+QUESTION 3 / 5
+What are headers in an HTTP request typically used for?
+Sending data to the server
+Passing metadata associated with the request
+Defining the body of the request
+Specifying the URL of the request
+
+Answer => Passing metadata associated with the request
+
+QUESTION 4 / 5
+How do query parameters appear in a URL?
+Before the URL
+Inside the URL, separated by slashes (/)
+After the URL, separated by a hash (#)
+After the URL, separated by a question mark (?)
+
+Answer => After the URL, separated by a question mark (?)
+
+QUESTION 5 / 5
+Why is it necessary to handle errors when working with Fetch API in JavaScript?
+The Fetch API automatically throws an error when an HTTP error status is returned
+Because otherwise the JavaScript engine will crash
+The Fetch API does not reject HTTP error statuses, so we need to handle these scenarios manually
+All of the above
+
+Answer => The Fetch API does not reject HTTP error statuses, so we need to handle these scenarios manually
+
+
+
+
+
+
