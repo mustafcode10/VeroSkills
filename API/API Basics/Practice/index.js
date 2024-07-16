@@ -33,4 +33,33 @@ function renderData(data){
     main.insertAdjacentHTML('beforeend', html)
 
 }
-fetchData(url, renderData)
+// fetchData(url, renderData)
+
+// Function to make a GET request to JSONPlaceholder API with query parameters
+function getPostsByUserId(userId) {
+    // Base URL for the JSONPlaceholder API
+    const baseUrl = 'https://jsonplaceholder.typicode.com/posts';
+  
+    // Construct the full URL with query parameters
+    const url = `${baseUrl}?userId=${userId}`;
+  
+    // Make the GET request using the Fetch API
+    fetch(url)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Display the filtered results in the console
+        console.log(data);
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+  }
+  
+  // Example usage of the function
+  getPostsByUserId(5);
+  
