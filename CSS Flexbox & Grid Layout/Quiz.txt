@@ -1,0 +1,60 @@
+QUESTION 1 / 6
+What is the correct CSS property to set up a Flexbox container?
+display: flexbox;
+display: flex;
+container: flex;
+flex: container;
+
+Answer => display: flex;
+
+QUESTION 2 / 6
+Which statement correctly describes the difference between a flex container and flex items in CSS Flexbox?
+
+Flex items are the parent elements, and flex containers are the child elements within a Flexbox layout.
+Flex containers are the parent elements, and flex items are the child elements within a Flexbox layout.
+Both flex items and flex containers are parent elements in a Flexbox layout.
+Both flex items and flex containers are child elements in a Flexbox layout.
+
+Answer => Flex containers are the parent elements, and flex items are the child elements within a Flexbox layout.
+
+QUESTION 3 / 6
+What does the justify-content property do in a Flexbox layout?
+
+It defines the alignment of the flex items along the vertical axis.
+It defines the alignment of the flex items along the main axis.
+It defines the order of the flex items.
+It defines the direction of the flex items.
+
+Answer => It defines the alignment of the flex items along the main axis.
+
+QUESTION 4 / 6
+If you want to align flex items along the cross axis to the start of the container, which value would you use for align-items?
+
+flex-start
+flex-end
+center
+baseline
+
+Answer => flex-start
+
+QUESTION 5 / 6
+What is the purpose of the align-self property in CSS Flexbox?
+
+
+To set the flex-grow factor for a flex item.
+To set the order in which flex items appear within the flex container.
+To override the align-items property for specific flex items.
+To specify the direction of the main axis in the flex container.
+
+Answer => To override the align-items property for specific flex items.
+
+QUESTION 6 / 6
+How can one reverse the order of the items in a flex container?
+
+order: reverse;
+flex-direction: reverse-row;
+align-items: reverse;
+flex-direction: row-reverse;
+
+Answer => flex-direction: row-reverse;
+
