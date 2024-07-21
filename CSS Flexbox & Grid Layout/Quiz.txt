@@ -58,3 +58,74 @@ flex-direction: row-reverse;
 
 Answer => flex-direction: row-reverse;
 
+QUESTION 1 / 6
+Which CSS property would you use to make a flex item take up the remaining space in a flex container?
+
+flex-wrap: wrap;
+flex-grow: 1;
+flex-basis: auto;
+gap: 10px;
+
+Answer => flex-grow: 1;
+
+QUESTION 2 / 6
+If you want the flex items to lay out in rows, but move to a new line when space is insufficient, what would be the correct property setting?
+
+
+flex-wrap: nowrap;
+flex-wrap: reverse;
+flex-grow: wrap;
+flex-wrap: wrap;
+
+Answer => flex-wrap: wrap;
+
+
+QUESTION 3 / 6
+You want to set the initial main size of a flex item to 200px. Which of the following properties would you use?
+
+
+
+flex-basis: 200px;
+flex-grow: 200px;
+flex-wrap: 200px;
+gap: 200px;
+
+Answer => flex-basis: 200px;
+
+QUESTION 4 / 6
+You want to create a gap of 20px between flex items in a container. Which property would you use?
+
+
+flex-grow: 20px;
+flex-wrap: 20px;
+flex-basis: 20px;
+gap: 20px;
+
+Answer => gap: 20px;
+
+
+QUESTION 5 / 6
+How would you center flex items both vertically and horizontally within a flex container?
+
+justify-content: center; align-items: center;
+justify-content: flex-start; align-items: flex-start;
+justify-content: space-between; align-items: space-between;
+justify-content: flex-end; align-items: flex-end;
+
+Answer => justify-content: center; align-items: center;
+
+QUESTION 6 / 6
+When a margin is set to auto in a Flexbox layout, what does it do?
+
+It removes the margin from the flex items.
+It evenly distributes the space around the flex item.
+It sets the margin to the default browser setting.
+It prevents the flex item from wrapping.
+
+Answer => It evenly distributes the space around the flex item.
+
+
+
+
+
+
