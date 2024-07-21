@@ -124,6 +124,58 @@ It prevents the flex item from wrapping.
 
 Answer => It evenly distributes the space around the flex item.
 
+QUESTION 1 / 5
+1 What is the correct CSS property to set up a Grid container?
+display: grid;
+display: gridbox;
+container: grid;
+grid: container;
+
+Answer => display: grid;
+
+QUESTION 2 / 5
+2 Which of the following CSS properties is used to define the size and number of columns in a grid layout?
+
+grid-column-gap
+grid-template-rows
+grid-row-gap
+grid-template-columns
+
+Answer => grid-template-columns
+
+QUESTION 3 / 5
+2 To define three equally sized columns in a grid container, what would be the correct property setting?
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 3fr;
+grid-template-columns: 3fr;
+
+Answer => grid-template-columns: 1fr 1fr 1fr;
+
+QUESTION 4 / 5
+4 You want to create a gap of 10px between grid items in a container. Which property would you use?
+grid-gap: 10px;
+grid-row-gap: 10px; grid-column-gap: 10px;
+grid-template-rows: 10px; grid-template-columns: 10px;
+Both A and B.
+
+Answer => Both A and B.
+
+QUESTION 5 / 5
+5 Why is CSS Grid often referred to as a two-dimensional layout system?
+
+It supports two different types of display: grid and inline-grid.
+It allows for layout control along both rows and columns at the same time.
+It can only be applied to two elements at a time.
+It requires two CSS properties to be set: display: grid; and grid-template.
+
+Answer => It allows for layout control along both rows and columns at the same time.
+
+
+
+
+
+
 
 
 
