@@ -171,6 +171,57 @@ It requires two CSS properties to be set: display: grid; and grid-template.
 
 Answer => It allows for layout control along both rows and columns at the same time.
 
+QUESTION 1 / 5
+1 In a CSS Grid Layout, what is the implicit grid?
+
+The grid defined using grid-template-rows and grid-template-columns properties.
+The grid that is automatically created when you place items outside the explicit grid.
+The grid that is created when you use auto-fit or auto-fill.
+The grid that is created when you use repeat() function in your grid definition.
+
+Answer => The grid that is automatically created when you place items outside the explicit grid.
+
+QUESTION 2 / 5
+2 What does the minmax() function do in a CSS Grid Layout?
+
+It defines a size range greater than or equal to the min value and less than or equal to the max value.
+It calculates the minimum and maximum values of the grid's dimensions.
+It sets the minimum and maximum number of grid lines.
+It sets the minimum and maximum number of grid items.
+
+Answer => It defines a size range greater than or equal to the min value and less than or equal to the max value.
+
+QUESTION 3 / 5
+3 If you want to create a grid with 4 columns of equal width, which of the following properties would you use?
+
+grid-template-columns: auto-fit(4, 1fr);
+grid-template-columns: minmax(4, 1fr);
+grid-template-columns: 4;
+grid-template-columns: repeat(4, 1fr);
+
+Answer => grid-template-columns: repeat(4, 1fr);
+
+QUESTION 4 / 5
+4 What does the auto-fit keyword do in a CSS Grid Layout?
+
+It automatically adjusts the size of grid items to fit the container.
+It automatically adjusts the number of grid items based on the size of the grid container.
+It creates as many grid tracks as possible without overflowing the grid container.
+It creates a grid track of automatic width to fit the remaining space.
+
+Answer => It creates as many grid tracks as possible without overflowing the grid container.
+
+QUESTION 5 / 5
+5 You want to position a grid item starting from the second grid line to the fourth grid line. How would you do this?
+
+grid-column: 2 / 4;
+grid-row: 2 / 4;
+grid-area: 2 / 4;
+grid-template-columns: 2 / 4;
+
+Answer =>  grid-column: 2 / 4;
+
+
 
 
 
