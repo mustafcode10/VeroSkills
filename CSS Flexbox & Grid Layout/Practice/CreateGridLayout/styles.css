@@ -1,0 +1,88 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  color: #1b263b;
+  background-color: #e0e1dd;
+}
+
+a {
+  color: #9ad3ed;
+  display: block;
+  margin-bottom: 0.65em;
+  text-decoration: none;
+}
+
+nav {
+  margin: 2.25em 0 0 0.25em;
+}
+
+h2, h3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;  
+}
+
+h2 {
+  color: #fff;
+  font-size: 1.35rem;
+  margin: 0 0 0.45em;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: 0;
+  color: #0d1b2a;
+}
+
+p {
+  line-height: 1.5;
+  color: #494949;
+  margin-bottom: 0;
+}
+
+.widget {
+  padding: 1em;
+  background: #F3F4F6;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.widget span {
+  font-size: 1.85rem;
+}
+
+/* Grid Layout */
+
+.container,
+.widget-container {
+  display: grid;
+  gap: 1.125em;
+}
+
+.container {
+  grid-template-columns: 160px 1fr;
+}
+
+.widget-container {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: 65px;
+  align-content: start;
+  padding: 0 1.125em 1.125em 0;
+}
+
+aside {
+  padding: 1.5em 1em 1em;
+  background-color: #1b263b;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 1.85rem;
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}

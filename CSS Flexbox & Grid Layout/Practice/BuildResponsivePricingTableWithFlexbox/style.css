@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #8ecae6;
+  color: #023047;
+  margin: 0;
+  padding: 1.125em 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.pricing-table {
+  width: 90%;
+  max-width: 1000px;
+  min-height: 350px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.tier {
+  padding: 1.85em 1.5em;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  align-items: center;
+  flex-basis: 250px;
+}
+
+.pro {
+  align-self: stretch;
+}
+
+.title {
+  font-size: 1.95rem;
+  margin: 0 0 0.25em;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #219ebc;
+  margin: 0;
+}
+
+.features {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 1.25em 0;
+}
+
+.feature {
+  margin-bottom: 8px;
+}
+
+.cta-button {
+  background-color: #219ebc;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.65em 1.25em;
+  border-radius: 4px;
+  align-self: stretch;
+}
+.cta-button:hover {
+  background-color: #1a849f;
+}

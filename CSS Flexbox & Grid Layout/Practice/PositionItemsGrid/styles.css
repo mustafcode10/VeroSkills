@@ -1,0 +1,81 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 3em;
+  margin: 0;
+  color: #241e1e;
+  background-color: #a8dadc;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.45em;
+}
+
+p {
+  margin: 0;
+  line-height: 1.35;
+}
+
+.container {
+  width: 60%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 2px rgba(0,0,0, 0.15);
+  overflow: hidden;
+}
+
+.container > div {
+  padding: 1.25em;
+  border-radius: 5px;
+  background: linear-gradient(to left, #CFDEF3, #E0EAFC); 
+}
+
+/* Grid styles */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+
+}
+.avocado {
+  grid-column: 1 / -1 ;
+ /* grid-column-start: 1;
+ grid-column-end: -1; */
+}
+
+.bread {
+  grid-row: 2 / 4 ;
+  /* grid-row-start: 2;
+  grid-row-end: 4; */
+
+}
+
+.bacon {
+  grid-column: 2 / 4 ;
+  /* grid-column-start: 2;
+  grid-column-end: 4; */
+}
+
+.eggs {
+  grid-column: 4 / 5 ;
+  grid-row: 2/ 4;
+
+  /* grid-column-start: 4;
+  grid-column-end: 5; 
+   grid-row-start: 2;
+  grid-row-end: 4; */
+}
+
+
+
+
+ 
+
+  
+  
