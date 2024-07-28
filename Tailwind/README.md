@@ -1,3 +1,0 @@
-# TailwindCSS Course
-
-Veroskills
