@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Landing Page</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
+   <!-- Navbar -->
+   <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-3">
+      <div class="flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-gray-800">Brand</a>
+        <div>
+          <a href="#" class="text-gray-800 hover:text-gray-600 mx-4">Home</a>
+          <a href="#" class="text-gray-800 hover:text-gray-600 mx-4">About</a>
+          <a href="#" class="text-gray-800 hover:text-gray-600 mx-4">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <!-- hero -->
+    <section class="bg-gray-200 py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl text-gray-800 font-bold mb-2 ">Welcome to Tailwind CSS</h1>
+            <p class="text-xl text-gray-700">Build responsive and modern websites with ease.</p>
+            <button class="inline-block font-bold text-white bg-blue-500 px-4 rounded py-2 mt-2 ">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Grid section -->
+    <section class="py-20 flex-grow">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl text-center text-gray-800 font-bold mb-8">Our Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white shadow-lg rounded-md p-8">
+                    <h1 class="text-2xl font-bold mb-2">Feature One</h1>
+                    <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum.</p>
+                </div>
+                 <div class="bg-white shadow-lg rounded-md p-8">
+                    <h1 class="text-2xl font-bold mb-2">Feature Two</h1>
+                    <p class="text-gray-700">Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.</p>
+                </div>
+                 <div class="bg-white shadow-lg rounded-md p-8">
+                    <h1 class="text-2xl font-bold mb-2">Feature Three</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-gray-800 text-white p-6">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <p>&copy; 2024 Brand. All rights reserved.</p>
+            <div class="flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white">Terms of Service </a>
+                <a href="#" class="text-gray-400 hover:text-white">Contact Us</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
