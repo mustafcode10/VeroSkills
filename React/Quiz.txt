@@ -1,0 +1,70 @@
+Question 1 / 3
+What is the main benefit of working with components in React?
+
+Simplifying the setup process
+Enforcing code organization
+Enhancing performance
+All of the above
+
+Answer => All of the above
+
+
+Question 2 / 3
+In React, components accept arbitrary inputs called:
+
+
+Elements
+Props
+States
+Modules
+
+Answer => Props
+
+
+Question 3 / 3
+React allows efficient manipulation of the DOM based on:
+
+User interaction
+Application data
+Both user interaction and application data
+None of the above
+
+Answer => Both user interaction and application data
+
+
+Question 1 / 3
+Which concept in React is explored in Video 7 by creating a recipe rating component?
+
+
+Props
+Hooks
+State
+Lifecycle methods
+
+Answer => State
+
+Question 2 / 3
+What is the purpose of working with event handlers in React?
+
+
+To fetch data from a JSON file
+To update the content on the page when the state value changes
+To create a rating component
+To render individual Recipe components
+
+Answer => To update the content on the page when the state value changes
+
+Question 3 / 3
+In React, which concept allows you to conditionally render elements based on a certain state?
+
+Props
+Hooks
+Lifecycle methods
+Conditional rendering
+
+Answer => Conditional rendering
+
+
+
+
+
