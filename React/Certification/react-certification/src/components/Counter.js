@@ -15,3 +15,6 @@ function Counter() {
 }
 
 export default Counter
+
+
+// Create a React component called Timer that displays the current time and updates every second using the useEffect hook.

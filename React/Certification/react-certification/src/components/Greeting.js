@@ -1,9 +1,15 @@
 import React from 'react'
+import ErrorBoundary from './ErrorBoundary'
 
-function Greeting({name}) {
+function Greeting({name, title}) {
     
   return (
-    <div>Greeting {name}</div>
+    <>
+        <div>Greeting {name} </div>
+    <p> {title}</p>
+    <ErrorBoundary />
+    </>
+
   )
 }
 
