@@ -1,7 +1,13 @@
 import React,{useState} from 'react'
 
+// Create a React component called Counter that uses the useState hook to display and update a count value. Include buttons to increment and decrement the count.
 function Counter() {
     const [count, setCount] = useState(0)
+    const [error, setError] = useState(false)
+
+    if(error){
+      throw new Error ('It crashes app')
+    }
 
   return (
     <>
@@ -9,6 +15,7 @@ function Counter() {
         <p>{count}</p>
         <button  onClick={()=> setCount(count + 1)}>increment</button>
         <button onClick={()=> setCount(count - 1)}>decrement</button>
+        <button onClick={()=> setError(true)}>Error</button>
     </>
 
   )
@@ -17,4 +24,3 @@ function Counter() {
 export default Counter
 
 
-// Create a React component called Timer that displays the current time and updates every second using the useEffect hook.

@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react'
-
+// Create a React component called Timer that displays the current time and updates every second using the useEffect hook.
 const Timer = () => {
   const [currentTime, setCurrentTime] = useState(new Date().toLocaleTimeString());
 

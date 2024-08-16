@@ -1,22 +1,4 @@
-// import React, { Component } from 'react'
-
-// export default class ErrorBoundary extends Component {
-
-//   render() {
-//     this.state.error = 'Error MSG'
-//     return (
-
-
-//       <div>ErrorBoundary</div>
-//     )
-//   }
-// }
-
-
-
 // Create an ErrorBoundary component that catches JavaScript errors in a child component tree and displays an error message.
-
-
 
 import React, { Component } from 'react';
 
@@ -59,3 +41,7 @@ class ErrorBoundary extends Component {
 }
 
 export default ErrorBoundary;
+
+
+
+// Create a Higher-Order Component (HOC) called withLoading that adds a loading indicator to a component while data is being fetched.
