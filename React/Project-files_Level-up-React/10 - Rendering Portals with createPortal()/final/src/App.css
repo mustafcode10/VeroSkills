@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Styles for the modal overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensuring the overlay is above other content */
+}
+
+/* Styles for the modal content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  margin: 0 auto;
+  z-index: 1001; /* Ensuring the modal content is above the overlay */
+}
+
+/* Close button styling */
+.close-button {
+  position: absolute;
+  font-size: 1.25rem;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(148, 148, 148);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 15px 10px;
+  text-align: center;
+  line-height: 0;
+  font-weight: bold;
+}
+
+/* Making sure the button doesn't get the default browser styles */
+.close-button:focus {
+  outline: none;
+}
+
+/* Optional: Animation to fade-in the modal */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.overlay {
+  animation: fadeIn 0.3s ease-out;
+}
+
+
