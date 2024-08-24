@@ -1,0 +1,93 @@
+Question 1 / 4
+What is Vite primarily designed for?
+
+Database management
+Backend services
+Faster frontend development
+Mobile application development
+
+Answer => Faster frontend development
+
+Question 2 / 4
+What is a significant advantage of the createRoot API in React?
+
+It allows you to style React components
+It offers capabilities around concurrent rendering
+It automatically saves the state in local storage
+It handles API calls without any additional libraries
+
+Answer => It offers capabilities around concurrent rendering.
+
+Question 3 / 4
+Which of the following best describes the relationship between props and state in a React component?
+
+Both props and state are read-only
+Props are read-only while state is mutable
+State is read-only while props can be changed inside a component
+Both props and state can be modified internally and externally
+
+Answer => Props are read-only while state is mutable
+
+Question 4 / 4
+When might a developer use props.children in React?
+
+To access the children elements nested within a custom component
+To handle form submission events
+To manage the local state of a component
+To make API calls and fetch data
+
+Answer => To access the children elements nested within a custom component
+
+
+Question 1 / 5
+Which of the following hooks is specifically used to initialize and manage state in a React component?
+
+useEffect
+useContext
+useRef
+useState
+
+Answer => useState
+
+Question 2 / 5
+When updating state using the useState hook, what advantage does using a callback function provide?
+
+It ensures the state always gets initialized to its initial value.
+It allows the state to skip updates and optimize performance.
+It guarantees that the update function uses the most recent state value.
+It automatically triggers a rerender of the parent component.
+
+Answer => It guarantees that the update function uses the most recent state value.
+
+Question 3 / 5
+Which method is recommended when you need to update an object in the state without losing its other properties?
+
+Spreading the previous state and then overriding specific properties
+Directly modifying the object
+Using Array's `push` method
+Using Object's `assign` method
+
+Answer => Spreading the previous state and then overriding specific properties
+
+Question 4 / 5
+Given the initial state declaration const [count, setCount] = useState(0);, how would you correctly update the count to increment by one?
+
+`count++`
+`setCount(count + 1)`
+`setCount(prevCount++)`
+`setCount(prevCount => prevCount + 1)`
+
+Answer => `setCount(prevCount => prevCount + 1)`
+
+Question 5 / 5
+Imagine you have an array in the state and you want to add a new item to it. What's the best approach to ensure immutability?
+
+`userState.push(newUser)`
+`setUserState(userState + newUser)`
+`setUserState([...userState, newUser])`
+`userState[userState.length] = newUser`
+
+Answer =>  `setUserState([...userState, newUser])`
+
+
+
