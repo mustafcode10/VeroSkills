@@ -90,4 +90,181 @@ Imagine you have an array in the state and you want to add a new item to it. Wha
 Answer =>  `setUserState([...userState, newUser])`
 
 
+Question 1 / 6
+What does the term "prop drilling" refer to in React?
+
+Creating new components for every prop passed
+The practice of passing props through intermediate components to deeply nested components
+Injecting props directly into the state
+Drilling down into props to extract nested values
+
+Answer => The practice of passing props through intermediate components to deeply nested components
+
+Question 2 / 6
+What is the primary purpose of the dependency array in the useEffect hook?
+
+To store data fetched from an API call
+To catch any errors during the component render
+To define the default state of the component
+To determine when the effect should re-run
+
+Answer => To determine when the effect should re-run
+
+
+Question 3 / 6
+Why might you use a cleanup function in the useEffect hook?
+
+To prevent memory leaks, for example, by clearing up subscriptions or timers
+To run the effect logic
+To make an API call
+To render UI components
+
+Answer => To prevent memory leaks, for example, by clearing up subscriptions or timers
+
+
+Question 4 / 6
+Which of the following is a common use case for the useEffect hook?
+
+Updating the DOM directly
+Manipulating React state outside the component
+Making asynchronous requests to fetch data from a server
+Synchronizing state and props
+
+Answer => Making asynchronous requests to fetch data from a server
+
+
+Question 5 / 6
+Why might you want to use Context in a React application?
+
+
+To make an API call to a remote server
+To share data easily across different levels of the component tree without passing props down manually
+To access the local storage of a browser
+To speed up the rendering process of a component
+
+Answer => To share data easily across different levels of the component tree without passing props down manually
+
+
+Question 6 / 6
+How do you consume the data provided by a context in a child component?
+
+Invoking the `createContext()` method within the component
+Using the `useState()` hook to access the context data
+Wrapping the component in a higher-order component
+Using the `useContext()` hook with the appropriate context object
+
+Answer => Using the `useContext()` hook with the appropriate context object
+
+
+Question 1 / 5
+What primary problem does React Suspense aim to solve?
+
+Handling and displaying UI while components asynchronously load data
+Component-based architecture
+State management
+Debugging React applications
+
+Answer => Handling and displaying UI while components asynchronously load data
+
+Question 2 / 5
+In the context of React Suspense, what is the role of the fallback prop?
+
+Capture and display any errors during rendering
+Define a default set of props for a component
+Rollback to a previous version of a component if the current one fails
+Specify what should be displayed while a component is being lazily loaded
+
+Answer => Specify what should be displayed while a component is being lazily loaded
+
+
+Question 3 / 5
+Which of the following is the correct way to utilize React's lazy function to import a component?
+
+`import MyComponent from 'react-lazy!./MyComponent'`
+`const MyComponent = require('react-lazy!./MyComponent')`
+`const MyComponent = lazy(() => import('./MyComponent'))`
+`const MyComponent = import('./MyComponent').lazy()`
+
+
+Answer => `const MyComponent = lazy(() => import('./MyComponent'))`
+
+
+Question 4 / 5
+What is the primary purpose of React's createPortal()?
+
+To create a new React component
+To render components outside of the parent DOM hierarchy
+To speed up the rendering process
+To enhance the accessibility of components
+
+Answer => To render components outside of the parent DOM hierarchy
+
+
+Question 5 / 5
+When creating a modal dialog with a portal in React, which of the following considerations is crucial for a good user experience?
+
+Ensure that the modal supports deep linking
+The modal's DOM elements should be responsive
+Ensure that the modal follows proper accessibility guidelines
+Provide multiple themes for the modal to support different UI looks
+
+Answer => Ensure that the modal follows proper accessibility guidelines
+
+
+Question 1 / 5
+What is the primary purpose of the useRef() Hook in form management within React?
+
+Update the state of the form
+Directly access a DOM element without re-rendering
+Manage form submission asynchronously
+Validate form input in real-time
+
+Answer => Directly access a DOM element without re-rendering
+
+
+Question 2 / 5
+When using useRef() to access an input element, how can you retrieve the current value of that input?
+
+useRef().value
+useRef().current
+useRef.current.value
+useRef.value()
+
+Answer => useRef.current.value
+
+Question 3 / 5
+What are Compound Components in React?
+
+Components that are composed of other smaller components to form a complete UI
+Components that use complex state management techniques
+Components that can be combined with other frameworks or libraries
+Components that provide complex animations and transitions
+
+Answer => Components that are composed of other smaller components to form a complete UI
+
+Question 4 / 5
+What is a controlled component in React?
+
+A component that does not manage its own state.
+A component where form data is handled by the DOM.
+A component where form data is controlled by the component's state.
+A component that cannot be modified after rendering.
+
+Answer => A component where form data is controlled by the component's state.
+
+Question 5 / 5
+What would be a typical use case for using refs in uncontrolled components?
+
+Store the previous value of an input for comparison
+Control the input's value directly through React state
+Sync the input's value with another UI element in real-time
+Access the DOM element's value directly for form submission
+
+Answer => Access the DOM element's value directly for form submission
+
+
+
+
+
+
 
