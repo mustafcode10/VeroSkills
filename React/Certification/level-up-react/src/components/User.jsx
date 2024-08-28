@@ -5,7 +5,12 @@ function User() {
     const {name} = useContext(UserContext)
 
   return (
-    <div>User hi {name}</div>
+    <>
+        <div>
+          <h2>User Name {name}</h2>
+        </div>
+    </>
+
   )
 }
 

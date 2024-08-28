@@ -11,7 +11,7 @@ const ParentComponent = () => {
   return (
     <div>
       <h1>Message from Child: {message}</h1>
-      <ChildComponent onSendMessage={handleMessage} />
+      <ChildComponent onSendMessage={handleMessage} /> 
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import {createContext, useState} from 'react'
-
+// Implement a simple Context API setup to manage user authentication state across your React application.
  export const UserContext = createContext()
 
 function UserProvider({children}) {
@@ -15,3 +15,5 @@ function UserProvider({children}) {
 }
 
 export default UserProvider
+
+

@@ -1,7 +1,7 @@
 import {useState} from 'react'
 
 function Form(props) {
-    const [player, setPlayer] = useState({name: 'mustaf', score: 0});
+    const [player, setPlayer] = useState({name: 'mustaf', score: 1});
     
   return (
     <>

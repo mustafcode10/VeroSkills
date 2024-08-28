@@ -1,22 +1,3 @@
-// import {useRef} from 'react'
-// import Display from './Display'
-
-
-// function ChilCompenent({children}) {
-//   const name = useRef
-//   return (
-//    <>
-//    {children}
-//     <Display ref={name}  />
-//    </>
-//   )
-// }
-
-// export default ChilCompenent
-
-
-
-
 import React, { useState } from 'react';
 
 const ChildComponent = ({ onSendMessage }) => {
