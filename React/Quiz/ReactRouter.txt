@@ -1,0 +1,164 @@
+Question 1 / 5
+What is the primary purpose of routing in a single-page application?
+
+To refresh the page every time a user clicks a link.
+To send a request to the server for new pages.
+To update the content displayed based on the URL, without a full page reload.
+To increase the load time of different pages.
+
+Answer => To update the content displayed based on the URL, without a full page reload.
+
+Question 2 / 5
+Which of the following best describes React Router?
+
+CSS framework for React
+A server-side routing framework.
+A tool for enhancing React components.
+A library for implementing routing in React applications.
+
+Answer => A library for implementing routing in React applications.
+
+Question 3 / 5
+What does the <BrowserRouter> component in React Router do?
+
+Provides server-side routing capabilities for React applications.
+Enables the navigation among views of various components in a React Application, using the browser's URL.
+Stores data for global state management in a React app.
+Used to create links in the application's navigation bar.
+
+Answer => Enables the navigation among views of various components in a React application, using the browser's URL.
+
+Question 4 / 5
+Where should the <BrowserRouter> component typically be placed in a React application?
+
+At the top level in the component hierarchy, usually wrapping the root component.
+Inside each component that needs to be routed.
+Directly inside the root index.js file.
+In every file where you import react-router-dom.
+
+Answer => At the top level in the component hierarchy, usually wrapping the root component.
+
+Question 5 / 5
+What is one of the key functionalities of effective routing in a single-page application (SPA)?
+
+Preventing users from using the browser's back and forward buttons.
+Ensuring that refreshing the browser disrupts the current user experience.
+Allowing navigation using the browser's back and forward buttons without breaking the user experience.
+Discouraging users from bookmarking URLs for future use.
+
+Answer => Allowing navigation using the browser's back and forward buttons without breaking the user experience.
+
+
+Question 1 / 5
+What is the purpose of the `<Routes>` component in React Router?
+
+Link to different parts of the application.
+Define a single route within the application.
+Group and manage multiple `<Route>` components in the application.
+Create a navigation menu.
+
+Answer => Group and manage multiple `<Route>` components in the application.
+
+Question 2 / 5
+Which component in React Router is used to define a single navigable route?
+
+<Router>
+<Routes>
+<Link>
+<Route>
+
+Answer => <Route>
+
+Question 3 / 5
+When implementing nested routes in React Router, which component is used to render the nested route's component?
+
+<Link>
+<Router>
+<Outlet>
+<Switch>
+
+Answer => <Outlet>
+
+Question 4 / 5
+What does the "*" (asterisk) represent when used as a path in a `<Route>` component?
+
+The home page of the application.
+A redirect to the previous page.
+The default route to load when the application starts.
+A wildcard "No Match" route that matches any path not handled by other routes.
+
+Answer => A wildcard "No Match" route that matches any path not handled by other routes.
+
+Question 5 / 5
+How is nested routing achieved in React Router?
+
+Placing a <Route> component outside a <Routes> component.
+Placing one <Route> component inside another <Route> component.
+Using the <Link> component within a <Route>.
+Using multiple <Router> components.
+
+Answer => Placing one <Route> component inside another <Route> component.
+
+
+
+Question 1 / 6
+What is the purpose of placeholders in dynamic routes in React Router?
+
+To specify a static path for every route.
+To allow routes to match a variety of URL structures.
+To create links that cannot be clicked.
+To redirect users to the homepage.
+
+Answer => To allow routes to match a variety of URL structures.
+
+Question 2 / 6
+How are URL placeholders in dynamic routes typically represented in React Router?
+
+With an asterisk (*).
+With square brackets ([]).
+With curly braces ({}).
+With a colon (:) followed by a parameter name.
+
+Answer => With a colon (:) followed by a parameter name.
+
+Question 3 / 6
+What is the primary use of the useParams hook in React Router?
+
+Access the dynamic parts of the URL.
+Navigate to a different route programmatically.
+Refresh the page when the route changes.
+Link to external websites.
+
+Answer => Access the dynamic parts of the URL.
+
+Question 4 / 6
+Which React Router component is used to highlight the active link in navigation?
+<Link>
+<Router>
+<Routes>
+<NavLink>
+
+Answer => <NavLink>
+
+Question 5 / 6
+What is the primary function of the useNavigate hook in React Router?
+Fetch data from an API.
+Programmatically navigate to different routes.
+Listen for changes in the route.
+Store state between routes.
+
+Answer => Programmatically navigate to different routes.
+
+
+Question 6 / 6
+When would you use the useNavigate hook in a React application?
+
+For every link in the application.
+To create placeholders in dynamic routes.
+When you need to navigate after a user action, like changing a select menu.
+To define new routes in the application.
+
+Answer => When you need to navigate after a user action, like changing a select menu.
+
+
+
