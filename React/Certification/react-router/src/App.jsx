@@ -2,6 +2,8 @@ import React, { Suspense, lazy } from 'react';
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop'
+import Login from './components/Login';
+import Protect from './components/Protect';
 const Home = lazy(()=> import('./components/Home'))
 const Category = lazy(()=> import('./components/Category'))
 const Product = lazy(()=> import('./components/Product'))
@@ -16,9 +18,13 @@ function App() {
     <ScrollToTop/>
     <Suspense fallback={<div>Loading...</div>}>
     <Routes>
-      <Route path='/' element={<Home />} />
+      
+      <Route path='/' element= {<Protect>
+        <Home/>
+      </Protect>}/>
       <Route path=':category' element={<Category />}/>
       <Route path='/product' element={<Product />}/>
+      <Route path='/login' element={<Login />}/>
 
     </Routes>
     </Suspense>
@@ -54,6 +60,7 @@ export default App
 
 
 // How can you handle scroll restoration when navigating between routes in a React SPA?
+
 
 
 
