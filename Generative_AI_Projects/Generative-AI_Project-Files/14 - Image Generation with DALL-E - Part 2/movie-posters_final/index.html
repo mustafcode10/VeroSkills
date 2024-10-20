@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Poster-Mash</h1>
+      <p class="subtitle">Merge two cinematic worlds into one poster</p>
+      <form id="posterForm" class="poster-form">
+          <input type="text" id="movieOneInput" placeholder="Movie title" required/>
+          <input type="text" id="movieTwoInput" placeholder="Movie title" required/>
+          <button type="submit" id="generatePosterBtn">Generate Poster</button>
+      </form>
+      <div id="posterOutput" class="poster-output"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

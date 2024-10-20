@@ -1,0 +1,97 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #b0e0e2;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto 0;
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.25rem;
+  margin: 0;
+  color: #1d3557;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+h2 {
+  color: #2d6a90;
+  margin: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 25px;
+}
+
+.recipe-output p {
+  margin: 1.125rem 0 0;
+}
+
+.icon {
+  font-size: 1em;
+}
+
+p {
+  margin-top: 0;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 15px;
+  margin: 1.5em 0;
+  overflow: hidden;
+}
+
+input[type="text"],
+button {
+  font-size: 1.125rem;
+}
+
+.input-group input[type="text"] {
+  flex: 1;
+  border: solid 2px #1d3557;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+  padding: 10px;
+  outline: none;
+}
+
+.input-group button {
+  border: solid 2px #c72a37;
+  background: #e63946;
+  color: white;
+  padding: 0 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.input-group button:hover {
+  background: #f15964;
+}
+
+.recipe-output {
+  background: #f0f3f6;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-height: 100px;
+}
